@@ -1,0 +1,23 @@
+{
+  "collectTrade":{
+    "type": "Select",
+    "props" : {
+      "label": "Trade Type",
+      "required": true,
+      "id": "trade_type",
+      "name": "trade_type",
+      "option":[
+        {
+          "name": "goods",
+          "value": "goods",
+          "label": "Goods"
+        },
+        {
+          "name": "services",
+          "value": "services",
+          "label": "Services"
+        }
+      ]
+    }
+  }
+}
